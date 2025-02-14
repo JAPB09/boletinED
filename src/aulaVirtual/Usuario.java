@@ -19,15 +19,15 @@ public class Usuario {
         this.email = email;
         this.asignaturas = new ArrayList<>();
     }
-
+    //Esto es una pequeña modificación
     public List<Asignatura> getAsignaturas() {
         return new ArrayList<>(asignaturas);
     }
-
+    //Quizá no es tan pequeña
     public void inscribirAsignatura(Asignatura asignatura) {
         asignaturas.add(asignatura);
     }
-
+    //O quizá si
     public String getNombre() {
         return nombre;
     }
