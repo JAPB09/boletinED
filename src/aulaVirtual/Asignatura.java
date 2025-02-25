@@ -17,7 +17,7 @@ public class Asignatura {
         this.profesor = null;
         this.alumnos = new ArrayList<>();
     }
-
+//Pequeño cambio en el código
     public String getNombre() {
         return nombre;
     }
