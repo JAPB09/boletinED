@@ -12,6 +12,7 @@ public class Alumno extends Usuario {
 
     private Map<Asignatura, Integer> notas;
 
+
     /**
      * Constructor de alumno
      *
