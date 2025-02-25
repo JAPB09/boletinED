@@ -35,4 +35,16 @@ public class Asignatura {
             if (a.getNombre().equals(alumno.nombre)) alumnos.remove(a);
         }
     }
+
+    public String getDatosAlumnos() {
+        if (alumnos.isEmpty()) {
+            return "No hay alumnos en la lista";
+        } else {
+            for (Alumno alumno : alumnos) {
+                return "Nombre: " + alumno.getNombre() +", Email: "+alumno.getEmail()
+                        +"Asignaturas: " +alumno.getAsignaturas();
+            }
+            return "";
+        }
+    }
 }
